@@ -59,7 +59,25 @@ class Login extends StatelessWidget {
                   ),
                   ),
                   
-      
+                Container(
+                padding: const EdgeInsets.symmetric(horizontal: 0.0, vertical: 8.0),    
+                child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text("Does not have account?"),
+                  Container(
+                    width: 10,
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Text(
+                      "Sign up",
+                      style: TextStyle(fontSize: 20),
+                    ),
+                  )
+                ]
+              )
+            )
               ],
             ),
             ),
